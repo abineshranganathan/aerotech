@@ -1,0 +1,17 @@
+// Bootstrap (only required parts)
+@import "bootstrap/scss/bootstrap";
+
+// Abstracts
+@import "./abstracts/variables";
+@import "./abstracts/mixins";
+
+// Base
+@import "./base/reset";
+@import "./base/typography";
+@import "./base/globals";
+
+// Layout
+@import "./layout/layout";
+
+// Pages
+@import "./pages/homepage";
