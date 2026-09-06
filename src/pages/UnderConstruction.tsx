@@ -178,7 +178,7 @@ const UnderConstruction = () => {
           </span>
 
           <span>
-            NOTIFY ME
+            Contact Us
           </span>
         </a>
 
