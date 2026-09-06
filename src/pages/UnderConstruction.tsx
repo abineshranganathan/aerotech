@@ -166,41 +166,21 @@ const UnderConstruction = () => {
             Notify Button
         ===================================== */}
 
-        <button
+        <a
+          href={`https://wa.me/${whatsappNumber}?text=${encodeURIComponent(message)}`}
+          target="_blank"
+            rel="noopener noreferrer"
           type="button"
           className="under-construction__button"
         >
-          <a className="under-construction__button-icon" href={`https://wa.me/${whatsappNumber}?text=${encodeURIComponent(message)}`}
-            target="_blank"
-            rel="noopener noreferrer">
-            {/* <svg
-              viewBox="0 0 24 24"
-              aria-hidden="true"
-            >
-              <path
-                d="M18 8a6 6 0 0 0-12 0c0 7-3 7-3 9h18c0-2-3-2-3-9"
-                fill="none"
-                stroke="currentColor"
-                strokeWidth="2"
-                strokeLinecap="round"
-                strokeLinejoin="round"
-              />
-
-              <path
-                d="M10 21h4"
-                fill="none"
-                stroke="currentColor"
-                strokeWidth="2"
-                strokeLinecap="round"
-              />
-            </svg> */}
+          <span className="under-construction__button-icon" >
             <img src={whatsappIcon} alt="Notify" />
-          </a>
+          </span>
 
           <span>
             NOTIFY ME
           </span>
-        </button>
+        </a>
 
       </section>
 
